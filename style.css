@@ -16,4 +16,26 @@ h2 {
 
 section {
     background-color: #AD343E;
+    margin-bottom: 0;
+    position: relative;
+    width: 100vw;
 }
+
+
+p {
+    color: white;
+    
+}
+
+/* help from stack overlow https://stackoverflow.com/questions/5817233/align-button-at-the-bottom-of-div-using-css */
+.btn {
+    position:absolute;
+    right: 15px;
+    bottom: 20px;
+    color: #ffffff;
+   width: 8%;
+   height: 15%;
+  }
+  .jumbotron{
+    margin-bottom: 0px;
+  }
