@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
 
 
@@ -37,6 +37,18 @@
 
 
 <body>
+   <!--Allows the responsive nav bar to work-->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+ </script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+   integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+ </script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+ </script>
+
+ 
 <section>
     <h2>Question 1 of 10</h2>
     <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
@@ -58,21 +70,24 @@
 
 
 <footer>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="quiz.html">Quiz</a>
-            </li>
-            <li>
-                <a href="news-Letter.html">Newsletter</a>
-            </li>
-        </ul>
 
+  <!-- taken from milestone prject 1 -->
+  <!--Bootstrap nav-->
 
+  <ul class="nav list-inline-item">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="quiz.html">Quiz</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="news-Letter.html">Newsletter</a>
+    </li>
+  
+</li>
+</ul>
 </footer>
-
 
 
 </html>
