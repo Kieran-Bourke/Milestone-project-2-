@@ -19,12 +19,13 @@ section {
     margin-bottom: 0;
     position: relative;
     width: 100vw;
+    height: 50vh;
 }
 
 
-p {
+section p {
     color: white;
-    
+    margin: 0;
 }
 
 /* help from stack overlow https://stackoverflow.com/questions/5817233/align-button-at-the-bottom-of-div-using-css */
@@ -36,6 +37,23 @@ p {
    width: 8%;
    height: 15%;
   }
-  .jumbotron{
-    margin-bottom: 0px;
-  }
+
+  .jumbotron.jumbotron-fluid {
+    margin-bottom: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#quiz{
+    background-image: url(../images/quiz.jpg);
+}
+
+#newsLetter{
+    background-image: url(../images/newsletter-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
